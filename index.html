@@ -1,15 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="index.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
     <title>Document</title>
-</head>
-<body>
-    
+  </head>
+  <body>
+    <input type="checkbox" id="check" />
+    <label for="check">Subscribe</label>
+    <br />
+    <br />
+    <input type="radio" id="visaButton" name="card" />
+    <label for="visaButton">Visa</label>
+    <br />
+    <br />
+    <input type="radio" id="masterCardButton" name="card" />
+    <label for="masterCardButton">Mastercard</label>
+    <br />
+    <br />
+    <input type="radio" id="payPAlButton" name="card" />
+    <label for="payPAlButton">PayPal</label>
+    <br />
+    <br />
+    <button type="submit" id="Submit">Submit</button>
 
+    <p id="subResult"></p>
+    <p id="paymentResult"></p>
 
     <script src="index.js"></script>
-</body>
+  </body>
 </html>
